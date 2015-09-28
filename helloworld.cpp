@@ -28,7 +28,7 @@ void ConfigParser::purge()
 {
 	CC_SAFE_DELETE(s_sharedConfigParserInstance);
 }
-
+//123123123
 void ConfigParser::readConfig()
 {
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS || CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
